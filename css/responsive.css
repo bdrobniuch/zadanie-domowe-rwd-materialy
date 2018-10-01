@@ -1,20 +1,40 @@
 /*laptop*/
-@media all and (max-width: 1200px) {}
+@media all and (max-width: 1170px) {
+    header {
+        background-image: url(../obrazy/man-2.jpg);
+        height: 70vh;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+}
 
 /*tablet*/
 @media all and (max-width: 992px) {
+    header {
+        background-image: url(../obrazy/man-1.jpg);
+        height: 50vh;
+        justify-content: center;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    div {
+        margin-top: calc(55vh);
+    }
+
+    h1,
+    h2 {
+
+        color: black;
+    }
 
 }
 
 /*tablety i telefony*/
-@media all and (max-width: 768px) {
-
-}
+@media all and (max-width: 768px) {}
 
 /*smarthpohny*/
-@media all and (max-width: 480px) {
-
-}
+@media all and (max-width: 480px) {}
 
 /*media for iphon in google*/
 /*DPR device pixel ratio*/
